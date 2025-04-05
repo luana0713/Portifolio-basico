@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(194, 32, 32);
+    background-color: rgb(0, 0, 0);
     height: 100vh;
 }
 .interface {
@@ -93,6 +93,8 @@ section.topo-do-site .flex {
     margin: 18px 0;
 }
 .topo-do-site .img-topo-site img{
+    width: 330px;
+  height: auto;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate ;
 
